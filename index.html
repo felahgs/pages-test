@@ -2,6 +2,20 @@
 
 <html>
 	<head>
+		<!-- Start Integrate JS Pixel code -->  
+		<script>
+			(function() {
+				var loopScript = document.createElement('script');
+				loopScript.type = 'text/javascript';
+				loopScript.async = true;
+				loopScript.src = 'http://localhost:8080/loop.bundle.js';
+				loopScript.setAttribute('ll-public-key', 'wsbuMjtyJPx4GxRS3JP8');
+				
+				var firstScriptTag = document.getElementsByTagName('script')[0];
+				firstScriptTag.parentNode.insertBefore(loopScript, firstScriptTag);
+			})();
+		</script>
+	<!-- End Integrate JS Pixel code -->
 		<title> </title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
